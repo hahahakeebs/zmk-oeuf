@@ -232,7 +232,7 @@
 &trans       &trans  &trans        &trans  &trans    &trans  &trans  &trans        &trans  &trans
 &hml LGUI A  &trans  &hml LCTRL D  &trans  &trans    &trans  &trans  &hmr RCTRL K  &trans  &hmr RGUI SQT
 &trans       &trans  &trans        &trans  &trans    &trans  &trans  &trans        &trans  &trans
-                     &trans        &trans  &trans    &trans
+             &trans  &trans        &trans  &trans    &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
