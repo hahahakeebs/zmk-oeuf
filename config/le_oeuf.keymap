@@ -128,6 +128,11 @@
             bindings = <&studio_unlock>;
             key-positions = <20 21 28 29>;
         };
+
+        pw {
+            bindings = <&pw>;
+            key-positions = <0 1 8 9>;
+        };
     };
 
     behaviors {
@@ -212,6 +217,13 @@
             #binding-cells = <0>;
             bindings = <&kp FSLH &kp STAR &kp STAR &kp SPACE>;
             label = "JSDOC";
+        };
+
+        pw: pw {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(M) &kp A &kp C &kp H &kp I &kp N &kp E &kp R &kp Y &kp SPACE &kp J &kp U &kp N &kp G &kp L &kp E &kp SPACE &kp T &kp R &kp O &kp P &kp I &kp C &kp A &kp L &kp SPACE &kp R &kp O &kp A &kp R &kp N1>;
+            label = "PW";
         };
     };
 
